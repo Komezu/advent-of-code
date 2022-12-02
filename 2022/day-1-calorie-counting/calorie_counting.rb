@@ -1,10 +1,10 @@
 elves = []
 calories = 0
 
-File.foreach("calorie_data.txt") do |line|
+File.foreach('calorie_data.txt') do |line|
   line = line.strip
 
-  if line == ""
+  if line == ''
     elves << calories
     calories = 0
   else
