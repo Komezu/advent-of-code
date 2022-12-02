@@ -15,4 +15,8 @@ end
 # To account for the last elf without a trailing blank line
 elves << calories
 
+# Part 1
+p elves.max
+
+# Part 2
 p elves.sort.last(3).sum
