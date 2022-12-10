@@ -2,7 +2,7 @@ require_relative 'helpers'
 
 moves = []
 
-File.foreach('motions_data.txt') do |line|
+File.foreach('motion_data.txt') do |line|
   line = line.strip.split
   moves << [line[0], line[1].to_i]
 end

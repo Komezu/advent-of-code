@@ -1,6 +1,6 @@
 crates = {}
 
-File.foreach('crates_data.txt') do |line|
+File.foreach('crate_data.txt') do |line|
   # First gsub to account for first stack being shorter (so line starts empty), but was not necessary for my input
   line = line.gsub(/^   /, '[0]').gsub('    ', ' [0]').strip.split
 
