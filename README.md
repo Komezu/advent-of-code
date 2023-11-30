@@ -1,6 +1,7 @@
 # advent-of-code
 My Advent of Code solutions (or attempts) 🎄🛷❄️
 
-First AoC this year (2022) so my solutions (if I get there) will probably be quite messy and non optimized. No crazy one-liners here! This is more of a personal log than anything.
+So, 2023. Likely won't get too far this year because work/life, but still fun to try!
+Again, messy and non optimized solutions ahead, just a personal log blablah.
 
-Will use Ruby for 2022.
+Will use... JavaScript? 😅 Totally not because my brain refuses to switch to anything else after work.
