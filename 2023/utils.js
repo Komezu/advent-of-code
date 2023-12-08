@@ -2,6 +2,10 @@ function getArraySum(array, initialValue = 0) {
   return array.reduce((a, b) => a + b, initialValue);
 }
 
+function getArrayProduct(array, initialValue = 1) {
+  return array.reduce((a, b) => a * b, initialValue);
+}
+
 function findIntersectionOfArrays(arrA, arrB) {
   return arrA.filter((elem) => arrB.includes(elem));
 }
@@ -51,6 +55,7 @@ function padInputOnAllSides(inputLines, paddingChar) {
 
 module.exports = {
   getArraySum,
+  getArrayProduct,
   findIntersectionOfArrays,
   chopArray,
   mergeSortedRanges,
